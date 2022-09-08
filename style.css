@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body {
+    background-color: beige;
+}
+.title{
+    background-color: aquamarine;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 30px;
+}
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    margin: auto;
+}
+span {
+    color: black;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+
+.square:hover{
+    background-color: black;
+    cursor: pointer;
+}
